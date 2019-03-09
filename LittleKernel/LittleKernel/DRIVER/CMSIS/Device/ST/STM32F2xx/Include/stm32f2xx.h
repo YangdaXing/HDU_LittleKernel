@@ -301,7 +301,7 @@ typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
 
 typedef struct
 {
-  __IO uint32_t SR;     /*!< ADC status register,                         Address offset: 0x00 */
+  __IO uint32_t SR£»   /*!< ADC status register,                         Address offset: 0x00 */
   __IO uint32_t CR1;    /*!< ADC control register 1,                      Address offset: 0x04 */      
   __IO uint32_t CR2;    /*!< ADC control register 2,                      Address offset: 0x08 */
   __IO uint32_t SMPR1;  /*!< ADC sample time register 1,                  Address offset: 0x0C */

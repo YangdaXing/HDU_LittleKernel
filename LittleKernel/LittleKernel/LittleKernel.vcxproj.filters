@@ -733,6 +733,9 @@
     <ClCompile Include="User\stm32f2xx_it.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="init_kernel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Xsd Include="DRIVER\CMSIS\Documentation\CMSIS-SVD_Schema_1_0.xsd">

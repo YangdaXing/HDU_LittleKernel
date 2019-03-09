@@ -1,4 +1,4 @@
-#include "stm32"
+#include "stm32f2xx.h"
 
 void machine_info()
 {

@@ -69,13 +69,16 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\CMSIS\Device\ST\STM32F2xx\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\CMSIS\Include;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\STM32F2xx_StdPeriph_Driver\inc;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\CMSIS\Device\ST\STM32F2xx\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -323,6 +326,7 @@
     <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c" />
     <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c" />
     <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_wwdg.c" />
+    <ClCompile Include="init_kernel.c" />
     <ClCompile Include="StartUp\system_stm32f2xx.c" />
     <ClCompile Include="StdDriver\misc.c" />
     <ClCompile Include="StdDriver\stm32f2xx_adc.c" />
