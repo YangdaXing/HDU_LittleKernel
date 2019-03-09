@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{AD410491-32BD-49EA-B77A-0A47D16A807D}</ProjectGuid>
+    <RootNamespace>LittleKernel</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DRIVER\CMSIS\Device\ST\STM32F2xx\Include\stm32f2xx.h" />
+    <ClInclude Include="DRIVER\CMSIS\Device\ST\STM32F2xx\Include\system_stm32f2xx.h" />
+    <ClInclude Include="DRIVER\CMSIS\Include\arm_common_tables.h" />
+    <ClInclude Include="DRIVER\CMSIS\Include\arm_math.h" />
+    <ClInclude Include="DRIVER\CMSIS\Include\core_cm0.h" />
+    <ClInclude Include="DRIVER\CMSIS\Include\core_cm3.h" />
+    <ClInclude Include="DRIVER\CMSIS\Include\core_cm4.h" />
+    <ClInclude Include="DRIVER\CMSIS\Include\core_cm4_simd.h" />
+    <ClInclude Include="DRIVER\CMSIS\Include\core_cmFunc.h" />
+    <ClInclude Include="DRIVER\CMSIS\Include\core_cmInstr.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\arch\bpstruct.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\arch\cc.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\arch\cpu.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\arch\epstruct.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\arch\init.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\arch\lib.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\arch\perf.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\arch\sys_arch.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\FreeRTOS\ethernetif.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\FreeRTOS\sys_arch.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\Standalone\ethernetif.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv4\lwip\inet.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv4\lwip\ip.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv6\lwip\icmp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv6\lwip\inet.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv6\lwip\ip.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\ipv6\lwip\ip_addr.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\api.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\api_msg.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\arch.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\debug.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\def.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\dhcp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\dns.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\err.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\init.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\mem.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\memp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\memp_std.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\netbuf.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\netdb.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\netif.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\netifapi.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\opt.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\pbuf.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\raw.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\sio.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\snmp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\snmp_asn1.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\snmp_msg.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\snmp_structs.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\sockets.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\stats.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\sys.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\tcp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\tcpip.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\lwip\udp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\netif\etharp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\netif\loopif.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\netif\ppp_oe.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\include\netif\slipif.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\auth.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\chap.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\chpms.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\fsm.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\ipcp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\lcp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\magic.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\md5.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\pap.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\ppp.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\pppdebug.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\randm.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\vj.h" />
+    <ClInclude Include="DRIVER\lwip_v1.3.2\src\netif\ppp\vjbsdhdr.h" />
+    <ClInclude Include="DRIVER\STM32F2x7_ETH_Driver\inc\stm32f2x7_eth.h" />
+    <ClInclude Include="DRIVER\STM32F2x7_ETH_Driver\inc\stm32f2x7_eth_conf_template.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\misc.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_adc.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_can.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_crc.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dac.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dcmi.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dma.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_exti.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_flash.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_fsmc.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_gpio.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_i2c.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_iwdg.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_pwr.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rcc.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rng.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rtc.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_sdio.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_spi.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_syscfg.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_tim.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_usart.h" />
+    <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_wwdg.h" />
+    <ClInclude Include="User\stm32f2xx_conf.h" />
+    <ClInclude Include="User\stm32f2xx_it.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DRIVER\CMSIS\Device\ST\STM32F2xx\Source\Templates\TASKING\cstart_thumb2.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DRIVER\CMSIS\Device\ST\STM32F2xx\Source\Templates\system_stm32f2xx.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\FreeRTOS\ethernetif.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\FreeRTOS\sys_arch.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\port\STM32F2x7\Standalone\ethernetif.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\api\api_lib.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\api\api_msg.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\api\err.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\api\netbuf.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\api\netdb.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\api\netifapi.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\api\sockets.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\api\tcpip.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\dhcp.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\dns.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\init.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv4\autoip.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv4\icmp.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv4\igmp.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv4\inet.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv4\inet_chksum.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv4\ip.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv4\ip_addr.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv4\ip_frag.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv6\icmp6.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv6\inet6.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv6\ip6.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\ipv6\ip6_addr.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\mem.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\memp.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\netif.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\pbuf.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\raw.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\snmp\asn1_dec.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\snmp\asn1_enc.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\snmp\mib2.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\snmp\mib_structs.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\snmp\msg_in.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\snmp\msg_out.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\stats.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\sys.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\tcp.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\tcp_in.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\tcp_out.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\core\udp.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\etharp.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\loopif.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\auth.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\chap.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\chpms.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\fsm.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\ipcp.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\lcp.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\magic.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\md5.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\pap.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\ppp.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\ppp_oe.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\randm.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\ppp\vj.c" />
+    <ClCompile Include="DRIVER\lwip_v1.3.2\src\netif\slipif.c" />
+    <ClCompile Include="DRIVER\STM32F2x7_ETH_Driver\src\stm32f2x7_eth.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\misc.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_adc.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_can.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_crc.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_aes.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_des.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_tdes.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dac.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dbgmcu.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dcmi.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dma.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_exti.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_flash.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_fsmc.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_md5.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_sha1.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_i2c.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_iwdg.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_pwr.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rng.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rtc.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_sdio.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_spi.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_syscfg.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c" />
+    <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_wwdg.c" />
+    <ClCompile Include="StartUp\system_stm32f2xx.c" />
+    <ClCompile Include="StdDriver\misc.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_adc.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_can.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_crc.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_cryp.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_cryp_aes.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_cryp_des.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_cryp_tdes.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_dac.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_dbgmcu.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_dcmi.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_dma.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_exti.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_flash.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_fsmc.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_gpio.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_hash.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_hash_md5.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_hash_sha1.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_i2c.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_iwdg.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_pwr.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_rcc.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_rng.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_rtc.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_sdio.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_spi.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_syscfg.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_tim.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_usart.c" />
+    <ClCompile Include="StdDriver\stm32f2xx_wwdg.c" />
+    <ClCompile Include="User\init_kernel.c" />
+    <ClCompile Include="User\stm32f2xx_it.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="DRIVER\CMSIS\Documentation\CMSIS-SVD_Schema_1_0.xsd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
