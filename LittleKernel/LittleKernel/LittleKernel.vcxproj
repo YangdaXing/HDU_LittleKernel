@@ -327,6 +327,7 @@
     <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c" />
     <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_wwdg.c" />
     <ClCompile Include="init_kernel.c" />
+    <ClCompile Include="MonitoringProgram\KeyBoard.cpp" />
     <ClCompile Include="StartUp\system_stm32f2xx.c" />
     <ClCompile Include="StdDriver\misc.c" />
     <ClCompile Include="StdDriver\stm32f2xx_adc.c" />

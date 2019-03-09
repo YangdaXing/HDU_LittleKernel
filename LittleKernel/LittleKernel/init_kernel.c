@@ -1,4 +1,5 @@
 #include "stm32f2xx.h"
+#include "init_MonitoringProgram.h"
 
 void machine_info()
 {

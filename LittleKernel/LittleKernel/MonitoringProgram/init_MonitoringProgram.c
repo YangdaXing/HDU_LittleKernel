@@ -1,5 +1,4 @@
-#include "stm32f2xx.h"
-#include "KeyBoard.h"
+#include "init_MonitoringProgram.h"
 
 void init_MonitoringProgram()
 {
