@@ -348,6 +348,216 @@
     <ClInclude Include="User\stm32f2xx_it.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_algobase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_cat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_codecvt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_collate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_ctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_dispatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_file_support.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_ioiter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_iosbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_iterbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_locale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_locimp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_locvector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_messages.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_money.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_numeric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_punct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_strref.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\alloca.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\arm_neon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\armdsp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\assert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\c55x.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\ctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\deque_spec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\dspfns.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\errno.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\fenv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\float.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\inttypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\iso646.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\limits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\list_spec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\locale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rt_fp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rt_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rt_locale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rt_misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rt_sys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\setjmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\signal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stdarg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stdbool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stddef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stdint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stdio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stdlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\tgmath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\vector_spec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\wchar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\wctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DRIVER\CMSIS\Device\ST\STM32F2xx\Source\Templates\TASKING\cstart_thumb2.asm">
@@ -737,6 +947,78 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MonitoringProgram\KeyBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_algobase.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_codecvt.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_collate.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_ctype.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_messages.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_money.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_numeric.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_punct.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_random.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_time.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_tree.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\algorithm.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\bitset.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\deque.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\fstream.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\ios.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\istream.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\limits.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\list.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\ostream.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\sstream.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\string.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\valarray.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\vector.cc">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
