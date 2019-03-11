@@ -3,7 +3,7 @@
 
 void init_KeyBoard()
 {
-	GPIO_TypeDef GPIO_InitStructure;
+	GPIO_InitTypeDef GPIO_InitStructure;
 
 
 /*******************启动滴答计时器**********************************/
@@ -36,14 +36,14 @@ void init_KeyBoard()
 
 }
 /****************************滴答计时器定时*********************************************/
-u8 time_1ms()
+u8 time_1ms()                 //计时1ms
 {
 	SysTick->VAL = 0x00;      //将滴答计时器清零
-	while (SysTick->CTRL != 0x00010001 )
+	while (SysTick->CTRL != 0x00010001 ) //计时到数时，位16将被自动置1，读取后会被自动清除
 	{
 
 	}
-	return KeyScan();
+	return KeyScan();                   //读取此时键盘扫描的值，并返回
 }
 
 /*****************************读取键盘返回button值*********************************************/
@@ -135,9 +135,9 @@ u8 KeyScan()
 /*******************************键盘消抖**********************************************************/
 u8 XiaoDou()
 {
-	u8 flag = 1;
-	u8 KeyValue = time_1ms();
-	for (int i = 1; i < 10; i++)
+	u8 flag = 1;                  //用来判断10次读取的值是否一致
+	u8 KeyValue = time_1ms();     //先存储第一次读取的键盘值
+	for (int i = 1; i < 10; i++)  //核对10次
 	{
 		if (KeyValue != time_1ms())
 		{

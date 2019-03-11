@@ -78,7 +78,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\STM32F2xx_StdPeriph_Driver\inc;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\ARMinclude\rw;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\ARMinclude;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\MonitoringProgram;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\User\MonitoringProgram;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\CMSIS\Include;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\CMSIS\Device\ST\STM32F2xx\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\StartUp\Include;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\MonitoringProgram;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\StartUp;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\User;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\STM32F2xx_StdPeriph_Driver\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -297,8 +297,47 @@
     <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_tim.h" />
     <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_usart.h" />
     <ClInclude Include="DRIVER\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_wwdg.h" />
+    <ClInclude Include="MonitoringProgram\init_MonitoringProgram.h" />
+    <ClInclude Include="MonitoringProgram\KeyBoard.h" />
+    <ClInclude Include="StartUp\Include\arm_common_tables.h" />
+    <ClInclude Include="StartUp\Include\arm_math.h" />
+    <ClInclude Include="StartUp\Include\core_cm0.h" />
+    <ClInclude Include="StartUp\Include\core_cm3.h" />
+    <ClInclude Include="StartUp\Include\core_cm4.h" />
+    <ClInclude Include="StartUp\Include\core_cm4_simd.h" />
+    <ClInclude Include="StartUp\Include\core_cmFunc.h" />
+    <ClInclude Include="StartUp\Include\core_cmInstr.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\misc.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_adc.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_can.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_crc.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dac.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dcmi.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dma.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_exti.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_flash.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_fsmc.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_gpio.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_i2c.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_iwdg.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_pwr.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rcc.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rng.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rtc.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_sdio.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_spi.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_syscfg.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_tim.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_usart.h" />
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_wwdg.h" />
+    <ClInclude Include="User\stdint.h" />
+    <ClInclude Include="User\stm32f2xx.h" />
     <ClInclude Include="User\stm32f2xx_conf.h" />
     <ClInclude Include="User\stm32f2xx_it.h" />
+    <ClInclude Include="User\system_stm32f2xx.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DRIVER\CMSIS\Device\ST\STM32F2xx\Source\Templates\TASKING\cstart_thumb2.asm" />
@@ -421,9 +460,42 @@
     <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c" />
     <ClCompile Include="DRIVER\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_wwdg.c" />
     <ClCompile Include="init_kernel.c" />
+    <ClCompile Include="MonitoringProgram\init_keyboard.c" />
+    <ClCompile Include="MonitoringProgram\init_MonitoringProgram.c" />
     <ClCompile Include="MonitoringProgram\KeyBoard.cpp" />
     <ClCompile Include="StartUp\system_stm32f2xx.c" />
     <ClCompile Include="StdDriver\misc.c" />
+    <ClCompile Include="StdDriver\src\misc.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_adc.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_can.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_crc.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_cryp.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_cryp_aes.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_cryp_des.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_cryp_tdes.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_dac.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_dbgmcu.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_dcmi.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_dma.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_exti.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_flash.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_fsmc.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_gpio.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_hash.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_hash_md5.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_hash_sha1.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_i2c.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_iwdg.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_pwr.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_rcc.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_rng.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_rtc.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_sdio.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_spi.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_syscfg.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_tim.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_usart.c" />
+    <ClCompile Include="StdDriver\src\stm32f2xx_wwdg.c" />
     <ClCompile Include="StdDriver\stm32f2xx_adc.c" />
     <ClCompile Include="StdDriver\stm32f2xx_can.c" />
     <ClCompile Include="StdDriver\stm32f2xx_crc.c" />
@@ -454,6 +526,37 @@
     <ClCompile Include="StdDriver\stm32f2xx_tim.c" />
     <ClCompile Include="StdDriver\stm32f2xx_usart.c" />
     <ClCompile Include="StdDriver\stm32f2xx_wwdg.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\misc.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_adc.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_can.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_crc.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_aes.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_des.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_tdes.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dac.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dbgmcu.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dcmi.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dma.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_exti.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_flash.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_fsmc.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_md5.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_sha1.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_i2c.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_iwdg.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_pwr.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rng.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rtc.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_sdio.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_spi.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_syscfg.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c" />
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_wwdg.c" />
     <ClCompile Include="User\init_kernel.c" />
     <ClCompile Include="User\stm32f2xx_it.c" />
   </ItemGroup>
