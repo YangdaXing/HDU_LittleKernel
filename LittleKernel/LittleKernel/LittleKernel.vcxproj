@@ -79,6 +79,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\StartUp\Include;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\MonitoringProgram;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\StartUp;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\User;D:\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\STM32F2xx_StdPeriph_Driver\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>USE_STDPERIPH_DRIVER</PrecompiledHeader>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

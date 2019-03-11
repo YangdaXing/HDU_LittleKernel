@@ -71,6 +71,8 @@
   @{
  */
 
+	
+
 /*  CMSIS CM3 definitions */
 #define __CM3_CMSIS_VERSION_MAIN  (0x02)                                                       /*!< [31:16] CMSIS HAL main version */
 #define __CM3_CMSIS_VERSION_SUB   (0x10)                                                       /*!< [15:0]  CMSIS HAL sub version  */
@@ -186,6 +188,8 @@
 
 /** \brief  Union type to access the Application Program Status Register (APSR).
  */
+
+		
 typedef union
 {
   struct

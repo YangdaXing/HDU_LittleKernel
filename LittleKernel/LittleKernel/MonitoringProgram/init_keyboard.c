@@ -145,13 +145,13 @@ u8 XiaoDou()
 			break;
 		}
 	}
-	if (flag)
+	if (flag)                     //如果匹配10次，则返回键盘输入值
 	{
 		return KeyValue;
 	}
-	else
+	else                          //如果未能匹配10次，则不返回
 	{
-		return 255;
+		
 	}
 }
 
