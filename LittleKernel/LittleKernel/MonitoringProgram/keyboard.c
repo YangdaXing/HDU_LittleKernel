@@ -1,4 +1,5 @@
-﻿#include "KeyBoard.h"
+﻿
+#include "KeyBoard.h"
 
 
 void init_KeyBoard()
@@ -32,8 +33,6 @@ void init_KeyBoard()
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init(GPIOD, &GPIO_InitStructure);
 
-	
-
 }
 /****************************滴答计时器定时*********************************************/
 u8 time_1ms()                 //计时1ms
@@ -47,7 +46,7 @@ u8 time_1ms()                 //计时1ms
 }
 
 /*****************************读取键盘返回button值*********************************************/
-u8 KeyScan()
+u8 Keyboard_Scan()
 {
 	u8 button = 255; //设定一个初值
 /****************************拉低KEY5*****************************************/
@@ -133,7 +132,7 @@ u8 KeyScan()
 }
 
 /*******************************键盘消抖**********************************************************/
-u8 XiaoDou()
+u8 Keyboard_Jitter()
 {
 	u8 flag = 1;                  //用来判断10次读取的值是否一致
 	u8 KeyValue = time_1ms();     //先存储第一次读取的键盘值
