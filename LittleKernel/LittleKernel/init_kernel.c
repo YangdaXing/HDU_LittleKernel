@@ -3,7 +3,7 @@
 
 void machine_info()
 {
-
+	
 }
 
 void init_kernel()

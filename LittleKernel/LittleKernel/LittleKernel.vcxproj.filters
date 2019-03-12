@@ -348,6 +348,333 @@
     <ClInclude Include="User\stm32f2xx_it.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_algobase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_cat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_codecvt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_collate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_ctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_dispatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_file_support.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_ioiter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_iosbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_iterbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_locale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_locimp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_locvector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_messages.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_money.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_numeric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_punct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_strref.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rw\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\alloca.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\arm_neon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\armdsp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\assert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\c55x.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\ctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\deque_spec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\dspfns.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\errno.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\fenv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\float.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\inttypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\iso646.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\limits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\list_spec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\locale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rt_fp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rt_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rt_locale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rt_misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\rt_sys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\setjmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\signal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stdarg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stdbool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stddef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stdint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stdio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\stdlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\tgmath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\vector_spec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\wchar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMinclude\wctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitoringProgram\init_MonitoringProgram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitoringProgram\KeyBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User\stdint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User\stm32f2xx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User\system_stm32f2xx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_adc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_can.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_crc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_cryp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dbgmcu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dcmi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_dma.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_exti.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_flash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_fsmc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_gpio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_i2c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_iwdg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_pwr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rcc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rtc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_sdio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_spi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_syscfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_tim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_usart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_wwdg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartUp\Include\arm_common_tables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartUp\Include\arm_math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartUp\Include\core_cm0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartUp\Include\core_cm3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartUp\Include\core_cm4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartUp\Include\core_cm4_simd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartUp\Include\core_cmFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartUp\Include\core_cmInstr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DRIVER\CMSIS\Device\ST\STM32F2xx\Source\Templates\TASKING\cstart_thumb2.asm">
@@ -737,6 +1064,270 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MonitoringProgram\KeyBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_algobase.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_codecvt.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_collate.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_ctype.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_messages.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_money.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_numeric.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_punct.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_random.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_time.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\rw\_tree.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\algorithm.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\bitset.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\deque.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\fstream.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\ios.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\istream.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\limits.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\list.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\ostream.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\sstream.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\string.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\valarray.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMinclude\vector.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MonitoringProgram\init_MonitoringProgram.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\misc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_adc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_can.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_crc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_cryp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_cryp_aes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_cryp_des.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_cryp_tdes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_dac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_dbgmcu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_dcmi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_dma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_exti.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_flash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_fsmc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_gpio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_hash_md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_hash_sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_i2c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_iwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_pwr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_rcc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_rng.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_rtc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_sdio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_spi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_syscfg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_tim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_usart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDriver\src\stm32f2xx_wwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\misc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_adc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_can.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_crc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_aes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_des.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_cryp_tdes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dbgmcu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dcmi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_dma.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_exti.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_flash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_fsmc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_hash_sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_i2c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_iwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_pwr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rng.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rtc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_sdio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_spi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_syscfg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_tim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_usart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STM32F2xx_StdPeriph_Driver\src\stm32f2xx_wwdg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MonitoringProgram\keyboard.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
