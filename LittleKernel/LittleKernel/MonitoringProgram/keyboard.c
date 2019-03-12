@@ -5,14 +5,6 @@
 void init_KeyBoard()
 {
 	GPIO_InitTypeDef GPIO_InitStructure;
-
-
-/*******************启动滴答计时器**********************************/
-
-	SysTick->LOAD |= 0x00002328;//9000,相当于1ms定时
-	SysTick->CTRL &= 0xfffffffb;//systick定时器配置时钟源 HCLK/8
-	SysTick->CTRL |= 0x00000001;//启动滴答计时器，（以未产生SysTick中断的方式）
-	
 /*************************键盘初始化*****************************/
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOE | RCC_AHB1Periph_GPIOD, ENABLE);
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2 | GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5;
@@ -32,17 +24,6 @@ void init_KeyBoard()
 	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init(GPIOD, &GPIO_InitStructure);
-
-}
-/****************************滴答计时器定时*********************************************/
-u8 time_1ms()                 //计时1ms
-{
-	SysTick->VAL = 0x00;      //将滴答计时器清零
-	while (SysTick->CTRL != 0x00010001 ) //计时到数时，位16将被自动置1，读取后会被自动清除
-	{
-
-	}
-	return KeyScan();                   //读取此时键盘扫描的值，并返回
 }
 
 /*****************************读取键盘返回button值*********************************************/
@@ -51,7 +32,7 @@ u8 Keyboard_Scan()
 	u8 button = 255; //设定一个初值
 /****************************拉低KEY5*****************************************/
 	GPIO_ResetBits(GPIOE, GPIO_Pin_2);
-	GPIO_SetBits(GPIOE, GPIO_Pin_3| GPIO_Pin_4| GPIO_Pin_5);
+	GPIO_SetBits(GPIOE, GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5);
 	if (GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_1) == 0)
 	{
 		button = 15;
@@ -69,7 +50,7 @@ u8 Keyboard_Scan()
 		button = 12;
 	}
 
-/****************************拉低KEY6*****************************************/
+	/****************************拉低KEY6*****************************************/
 	GPIO_ResetBits(GPIOE, GPIO_Pin_3);
 	GPIO_SetBits(GPIOE, GPIO_Pin_2 | GPIO_Pin_4 | GPIO_Pin_5);
 	if (GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_1) == 0)
@@ -89,7 +70,7 @@ u8 Keyboard_Scan()
 		button = 8;
 	}
 
-/****************************拉低KEY7*****************************************/
+	/****************************拉低KEY7*****************************************/
 	GPIO_ResetBits(GPIOE, GPIO_Pin_4);
 	GPIO_SetBits(GPIOE, GPIO_Pin_2 | GPIO_Pin_3 | GPIO_Pin_5);
 	if (GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_1) == 0)
@@ -109,7 +90,7 @@ u8 Keyboard_Scan()
 		button = 4;
 	}
 
-/****************************拉低KEY8*****************************************/
+	/****************************拉低KEY8*****************************************/
 	GPIO_ResetBits(GPIOE, GPIO_Pin_5);
 	GPIO_SetBits(GPIOE, GPIO_Pin_2 | GPIO_Pin_3 | GPIO_Pin_4);
 	if (GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_1) == 0)
@@ -150,8 +131,26 @@ u8 Keyboard_Jitter()
 	}
 	else                          //如果未能匹配10次，则不返回
 	{
-		
+
 	}
 }
+
+/*******************启动滴答计时器**********************************/
+void Init_systick()
+{
+	SysTick->LOAD |= 0x00004650;//18000,相当于2ms定时
+	SysTick->CTRL &= 0xfffffffb;//systick定时器配置时钟源 HCLK/8
+	SysTick->CTRL |= 0x00000003;//启动滴答计时器，（以产生SysTick中断的方式）
+}
+
+void SysTick_Handler(void)
+{
+	u8 keyvalue = Keyboard_Scan();
+}
+
+
+
+
+
 
 /*存在的问题 读取函数不知道放在什么位置上比较好  返回值为255时表示未读取到键盘输入*/
