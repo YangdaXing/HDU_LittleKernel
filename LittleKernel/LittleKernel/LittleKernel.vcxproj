@@ -87,6 +87,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>F:\HDU\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\ARMCC\include;F:\HDU\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\ARMCC\include\rw;F:\HDU\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\STM32F2xx_StdPeriph_Driver\inc;F:\HDU\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\STM32F2x7_ETH_Driver\inc;F:\HDU\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\lwip_v1.3.2\src\include;F:\HDU\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\CMSIS\Include;F:\HDU\OS\LittleKernel（BaseOnSTM32）\HDU_LittleKernel\LittleKernel\LittleKernel\DRIVER\CMSIS\Device\ST\STM32F2xx\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
